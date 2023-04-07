@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="html,css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>review</title>
+</head> 
+		<body>
+			<script>
+				let sex=prompt("Enter the sex");
+				let age=prompt("Enter the age");
+				let marital=prompt("Enter Yes/no");
+
+				if(sex=="Female"){
+					console.log("You work only urban areas");
+				}
+				else if((sex=="Male") && (age>20) && (age<=40))
+				{
+					console.log("You work anywhere");
+				}
+				else if((sex=="Male") && (age>40) && (age<=60))
+				{
+					console.log("You work only urban areas");
+				}
+				else{
+					console.log("ERROR");
+				}
+		</script>
+		</body>
+</html>
